@@ -1,0 +1,8 @@
+# ANN Binary Classification — Required Libraries
+# Install with: pip install -r requirements.txt
+
+tensorflow>=2.15.0
+scikit-learn>=1.4.0
+pandas>=2.1.0
+numpy>=1.26.0
+matplotlib>=3.8.0
