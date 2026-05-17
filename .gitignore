@@ -1,1 +1,190 @@
-.venv/ 
+# =============================================================================
+# .gitignore — Diabetes ANN Project
+# Covers: Python, TensorFlow/Keras, C++, Jupyter, macOS, Windows, Linux, IDEs
+# =============================================================================
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# PYTHON
+# ─────────────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+wheels/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# TENSORFLOW / KERAS / ML
+# ─────────────────────────────────────────────────────────────────────────────
+# Saved models and checkpoints (can be large — regenerate with training)
+*.h5
+*.keras
+*.pb
+saved_model/
+checkpoints/
+logs/
+runs/
+
+# TensorBoard logs
+tensorboard_logs/
+tb_logs/
+
+# MLflow / experiment tracking artifacts
+mlruns/
+mlartifacts/
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# JUPYTER NOTEBOOKS
+# ─────────────────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+# Uncomment the line below to ignore all notebooks:
+# *.ipynb
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# C / C++
+# ─────────────────────────────────────────────────────────────────────────────
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.pch
+*.gch
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# CMake build artifacts
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+_deps/
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# ENVIRONMENT / SECRETS
+# ─────────────────────────────────────────────────────────────────────────────
+.env
+.env.*
+*.env
+secrets.py
+config_local.py
+credentials.json
+*.key
+*.pem
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# OPERATING SYSTEMS
+# ─────────────────────────────────────────────────────────────────────────────
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# IDEs & EDITORS
+# ─────────────────────────────────────────────────────────────────────────────
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim / Neovim
+*.swp
+*.swo
+Session.vim
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+auto-save-list
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# MISC / TEMPORARY FILES
+# ─────────────────────────────────────────────────────────────────────────────
+*.tmp
+*.temp
+*.bak
+*.orig
+*.log
+*.cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.cover
